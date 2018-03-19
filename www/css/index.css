@@ -1,0 +1,38 @@
+.header {
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 60px;
+}
+
+.header .right i {
+	padding-left: 5px;
+}
+
+.content {
+	margin-top: 25px;
+}
+
+.list {
+	border: 0px;
+}
+
+.list a {
+	padding-bottom: 26px;
+	border-bottom: 1px solid #ddd;
+}
+
+.item {
+	cursor: pointer;
+}
+
+.list div:active {
+	background-color: #ddd;
+}
+
+h1, 
+h2 {
+	font-family: 'Montserrat';
+}
+
+i {
+	color: #9e9e9e;
+}

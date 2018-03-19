@@ -1,0 +1,84 @@
+i {
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+	font-family: 'Montserrat';
+}
+
+.cover {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid #616161;
+}
+
+.cover .avatar {
+	height: 120px;
+	width: 120px;
+	flex: 1;
+}
+
+.list .item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.list .item h2 {
+	font-size: 15px;
+}
+
+.item .right .text-grey {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.item .right .text-grey h3 {
+	padding-right: 5px;
+}
+
+.item .avatar {
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.grid {
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.row {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #ddd;
+}
+
+.row i {
+	font-size: 18px;
+}
+
+.row h2 {
+	font-size: 15px;
+	padding-left: 8px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-top: 2px solid #616161;
+}
+
+.footer i {
+	padding: 8px;
+	cursor: pointer;
+}
